@@ -59,8 +59,20 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/giovannimegliola/template_laravel_base.git
+git remote add origin https://github.com/giovannimegliola/laravel-comics.git
 git push -u origin main
 
+
+#creo una nuova repo su gtihub da template
+
+#clono repo da vscode
+
+composer install
+
+#copia e rinomina file .env.example in .env
+
+php artisan key:generate 
+
+npm install
 
 ```
