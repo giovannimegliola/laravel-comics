@@ -47,3 +47,5 @@
     </div>
 
 </header>
+
+<img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="jumbotron" class="jumbo">
