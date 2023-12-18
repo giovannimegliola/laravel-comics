@@ -9,6 +9,19 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-// h1 {
+ h1 {
 
-// }
+    font-size: 25px;
+    // background-color: blue;
+
+}
+
+main{
+    background-color: black;
+
+}
+
+.logo{
+    width: 50px;
+}
+
