@@ -10,14 +10,11 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
  h1 {
-
     font-size: 25px;
-
 }
 
 main{
     background-color: black;
-
 }
 
 .logo{
@@ -27,6 +24,19 @@ main{
 .jumbo{
     height: 500px;
     width: 100%;
-    object-fit: none;
-    object-position: left top;
+    object-fit: fill;
+}
+
+footer{
+    background-image: url('../img/footer-bg.jpg');
+
+    a{
+        text-decoration: none;
+        color: gray;
+    }
+
+    span{
+        color: white;
+        font-size: 20px;
+    }
 }
