@@ -65,16 +65,7 @@
                 <div class="col">
                     <div class="btn">SING-UP NOW!</div>
                 </div>
-                <div class="col">
-                    <ul class="justify-content-end">
-                        <li class="social" >FOLLOW US</li>
-                        <li><a href="#"><img src="" alt="facebook"></a></li>
-                        <li><a href="#"><img src="" alt="youtube"></a></li>
-                        <li><a href="#"><img src="" alt="twitter"></a></li>
-                        <li><a href="#"><img src="" alt="pinterest"></a></li>
-                        <li><a href="#"><img src="" alt="periscope"></a></li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </section>
