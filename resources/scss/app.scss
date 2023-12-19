@@ -11,10 +11,15 @@ $fa-font-path: "../webfonts" !default;
 
  h1 {
     font-size: 25px;
+    color: white;
 }
 
 main{
     background-color: black;
+
+    .mydetail{
+        width: 500px;
+    }
 }
 
 .logo{
@@ -40,3 +45,5 @@ footer{
         font-size: 20px;
     }
 }
+
+

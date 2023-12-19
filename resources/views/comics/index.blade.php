@@ -4,7 +4,7 @@
 
 @section('content')
 <main>
-    <section class="container">
+    <section class="container py-4 ">
         <h1>CURRENT SERIES</h1>
         <div class="row gy-4">
           @foreach ($comics as $key => $comic)
