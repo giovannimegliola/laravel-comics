@@ -7,10 +7,12 @@
 
         <ul class="nav justify-content-center col">
             <li class="nav-item">
-            <a class="nav-link" href="#">Character</a>
+            <a class="nav-link {{ Route::currentRouteName() == 'home' ? 'active' : '' }}"
+             href="{{ route('home') }}">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Comics</a>
+            <a class="nav-link {{ Route::currentRouteName() == 'comics.index' ? 'active' : '' }}"
+            href="{{ route('comics.index') }}">Comics</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Movies</a>
