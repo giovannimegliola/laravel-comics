@@ -14,7 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $items = config('db.comic');
-    //dd($items);
-    return view('home', compact('items'));
-});
+    return view('home');
+})->name('home');
+
+
+
+Route::get('/comics', function () {
+    $comics  = config('db.comics');
+    return view('comics.index', compact('comics'));
+})->name('comics.index');
+
+Route::get('/comics/{id}', function ($id) {
+    $comics  = config('db.comics');
+    //cercare prodotto con quell'id
+    if ($id >= 0 && $id < count($comics )) {
+        $comic = $comics [$id];
+        return view('comics.show', compact('comics'));
+    } else {
+        abort(404);
+    }
+})->name('comics.show');
